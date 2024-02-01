@@ -1,0 +1,42 @@
+Log in to AWS Console:
+
+Open the AWS Management Console and log in with your credentials.
+Navigate to EC2 Dashboard:
+
+Click on "Services" and select "EC2" under the "Compute" section.
+Launch Instance:
+
+Click "Instances" in the left navigation pane and then click the "Launch Instances" button.
+Choose an Amazon Machine Image (AMI):
+
+Select an AMI based on your operating system and application requirements.
+Choose an Instance Type:
+
+Select an instance type based on your performance and resource needs.
+Configure Instance:
+
+Set instance details, including the number of instances, network settings, and user data (optional).
+Add Storage:
+
+Configure the instance storage, specifying the size and type of the root and additional volumes.
+Add Tags (Optional):
+
+Add tags to the instance for better organization and management.
+Configure Security Group:
+
+Set up security group rules to control inbound and outbound traffic to the instance.
+Review and Launch:
+
+Review your instance configuration, make adjustments if necessary, and click "Launch."
+Select Key Pair:
+
+Choose an existing key pair or create a new one. This key pair is crucial for SSH access to the instance.
+Launch Instances:
+
+Click "Launch Instances" and confirm by selecting the key pair. The instance is now being launched.
+View Instances:
+
+Navigate to the "Instances" section to monitor the status of your newly created instance.
+Access the Instance:
+
+Use an SSH client to connect to the instance using the key pair you selected during the launch.
