@@ -1,0 +1,47 @@
+1.Define scalability and elasticity?
+
+Scalability: Ability to handle increasing workload by adding resources.
+Elasticity: Automatically adjusting resources based on demand.
+
+2.Define agility?
+
+Agility: Ability to quickly adapt and respond to changes and deploy solutions rapidly.
+
+3.List out various AWS management tools?
+
+AWS Management Console, AWS CLI, AWS SDKs, AWS CloudFormation.
+
+
+4.Advantages of region?
+
+Geographic diversity, data residency options, fault tolerance.
+
+5.Services that are available under compute in AWS?
+
+EC2 (Elastic Compute Cloud), Lambda, ECS (Elastic Container Service).
+
+
+6.Differentiate between public, private, hybrid cloud?
+
+Public Cloud: Shared infrastructure, accessible over the internet.
+Private Cloud: Dedicated infrastructure for a single organization.
+Hybrid Cloud: Combination of both public and private clouds.
+
+7.Procedure to connect AWS instance using Putty?
+
+Convert the private key to PPK format using PuTTYgen.
+Use PuTTY to connect, specifying the PPK key file.
+
+
+8.What is disaster recovery?
+
+Disaster recovery: Planning and processes to restore operations after a disruptive event.
+
+9.Define autoscaling?
+
+Autoscaling: Automatically adjusting the number of resources based on demand.
+
+
+10.Classify the instance family in AWS?
+
+Instance Families: Groups of instances with similar configurations and capabilities.
