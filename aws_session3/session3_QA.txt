@@ -1,0 +1,68 @@
+1.What is Elastic IP, and give the procedure to create it?
+
+Elastic IP: A static IPv4 address for dynamic cloud computing.
+Procedure:
+Go to AWS Management Console
+Navigate to EC2 Dashboard
+Allocate and Associate Elastic IP.
+
+
+
+2.How to install packages in Linux?
+
+Use the package manager (e.g., apt, yum).
+Example: sudo apt-get install packageName (for Ubuntu/Debian).
+
+
+3.What are the different ways to check the status of httpd in Linux?
+
+Use commands like systemctl status httpd, service httpd status, or ps aux | grep httpd.
+
+
+4.What's the use of httpd?
+
+httpd is the Apache HTTP Server, widely used for serving web content.
+
+
+5.List out a couple of Linux commands?
+
+ls (list files), cd (change directory), mkdir (make directory).
+
+
+6.Define AMI?
+
+AMI: Amazon Machine Image, a template for virtual servers in AWS.
+
+
+7.What are the different types of AMI in AWS cloud?
+
+Public AMIs, Custom AMIs, Amazon Marketplace AMIs.
+
+
+8.Working procedure of AMI in AWS cloud?
+
+Create an AMI from an existing instance.
+Launch new instances using the created AMI.
+
+
+9.GitHub procedure to copy repo?
+
+Fork the repository on GitHub.
+Clone the forked repo to your local machine.
+
+
+10.List of different types of shells in Linux?
+
+Bash (Bourne Again Shell), Zsh (Z Shell), Fish, Dash, and more.
+
+
+
+
+
+
+
+
+
+
+
+
