@@ -1,0 +1,47 @@
+Launch an EC2 Instance:
+
+    Log in to the AWS Management Console.
+     Go to the EC2 dashboard.
+     Click on the "Launch Instance" button.
+      Choose an Amazon Machine Image (AMI) with your preferred operating system.
+      Select an instance type and configure the instance details.
+      Add storage and configure security groups to allow HTTP traffic (port 80).
+      Review and launch the instance.
+Connect to your EC2 Instance:
+
+Once the instance is running, connect to it using SSH.
+You can use the private key associated with your key pair to connect.
+bash
+Copy code
+ssh -i your-key.pem ec2-user@your-ec2-instance-ip
+Install a Web Server:
+
+Update the package list on your instance:
+bash
+Copy code
+sudo yum update -y
+Install a web server. For example, you can use Apache:
+bash
+Copy code
+sudo yum install httpd -y
+Start the Web Server:
+
+Start the Apache web server:
+bash
+Copy code
+sudo service httpd start
+Enable the service to start on boot:
+bash
+Copy code
+sudo chkconfig httpd on
+Upload your HTML File:
+
+You can use various methods to upload your HTML file to the server. For example, you can use scp or tools like WinSCP (for Windows) or Cyberduck (for macOS/Windows).
+Upload your HTML file to the /var/www/html/ directory.
+Access your Web Page:
+
+Open a web browser and navigate to your EC2 instance's public IP or DNS.
+arduino
+Copy code
+http://your-ec2-instance-ip
+You should see your HTML page.
